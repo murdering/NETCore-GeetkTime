@@ -37,20 +37,20 @@ namespace LoggingSimpleDemo
 
             ILoggerFactory loggerFactory = service.GetService<ILoggerFactory>();
 
-            //ILogger alogger = loggerFactory.CreateLogger("alogger");
+            ILogger alogger = loggerFactory.CreateLogger("alogger");
 
-            //alogger.LogDebug(2001, "aiya");
-            //alogger.LogInformation("hello");
+            alogger.LogDebug(2001, "aiya");
+            alogger.LogInformation("hello");
 
-            //var ex = new Exception("出错了");
-            //alogger.LogError(ex, "出错了");
+            var ex = new Exception("出错了");
+            alogger.LogError(ex, "出错了");
 
-            //var alogger2 = loggerFactory.CreateLogger("alogger");
+            var alogger2 = loggerFactory.CreateLogger("alogger");
 
-            //alogger2.LogDebug("aiya");
+            alogger2.LogDebug("aiya");
 
 
-            
+
 
             //var logger = service.GetService<ILogger<Program>>();
 

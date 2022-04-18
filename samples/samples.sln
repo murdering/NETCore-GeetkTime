@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingSerilogDemo", "Loggi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_OptionsDemo", "OptionsDemo\10_OptionsDemo.csproj", "{4F7A6DAA-3DE3-4190-A449-82FF469DD992}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingSimpleDemo", "LoggingSimpleDemo\LoggingSimpleDemo.csproj", "{D08E8F51-5CED-47AE-ADB1-C863AF05EECA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_LoggingSimpleDemo", "LoggingSimpleDemo\11_LoggingSimpleDemo.csproj", "{D08E8F51-5CED-47AE-ADB1-C863AF05EECA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingScopeDemo", "LoggingScopeDemo\LoggingScopeDemo.csproj", "{736A4AED-658D-48D9-89C4-D53C3D7A1C02}"
 EndProject
