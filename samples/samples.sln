@@ -25,15 +25,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_ConfigurationCustom", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{6D0527FE-E65C-4A86-8F43-B1291757C1F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingDemo", "LoggingDemo\LoggingDemo.csproj", "{026BC50F-986B-45DA-9FB7-701AB1DAC001}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_LoggingDemo", "LoggingDemo\13_LoggingDemo.csproj", "{026BC50F-986B-45DA-9FB7-701AB1DAC001}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingSerilogDemo", "LoggingSerilogDemo\LoggingSerilogDemo.csproj", "{21342114-CEDC-4680-A857-02AB23E4A698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_LoggingSerilogDemo", "LoggingSerilogDemo\14_LoggingSerilogDemo.csproj", "{21342114-CEDC-4680-A857-02AB23E4A698}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_OptionsDemo", "OptionsDemo\10_OptionsDemo.csproj", "{4F7A6DAA-3DE3-4190-A449-82FF469DD992}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_LoggingSimpleDemo", "LoggingSimpleDemo\11_LoggingSimpleDemo.csproj", "{D08E8F51-5CED-47AE-ADB1-C863AF05EECA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingScopeDemo", "LoggingScopeDemo\LoggingScopeDemo.csproj", "{736A4AED-658D-48D9-89C4-D53C3D7A1C02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_LoggingScopeDemo", "LoggingScopeDemo\12_LoggingScopeDemo.csproj", "{736A4AED-658D-48D9-89C4-D53C3D7A1C02}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddlewareDemo", "MiddlewareDemo\MiddlewareDemo.csproj", "{BEB54497-A95C-4DED-8BA5-18767558D8DF}"
 EndProject
