@@ -31,7 +31,7 @@ namespace ExceptionDemo
         {
             services.AddMvc(mvcOptions =>
             {
-                //mvcOptions.Filters.Add<MyExceptionFilter>();
+                mvcOptions.Filters.Add<MyExceptionFilter>();
                 mvcOptions.Filters.Add<MyExceptionFilterAttribute>();
             }).AddJsonOptions(jsonoptions =>
             {

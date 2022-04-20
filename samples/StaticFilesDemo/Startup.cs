@@ -30,6 +30,7 @@ namespace StaticFilesDemo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddDirectoryBrowser(); // 开启文件目录
         }
         const int BufferSize = 64 * 1024;
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,7 +52,7 @@ namespace StaticFilesDemo
             //    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "file"))
             //});
 
-            //app.UseDirectoryBrowser();
+            //app.UseDirectoryBrowser(); //使用文件目录
             //app.UseDefaultFiles();
             //app.UseFileServer();
 

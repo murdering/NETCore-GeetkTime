@@ -25,7 +25,7 @@ namespace ExceptionDemo.Exceptions
             else
             {
                 knownException = KnownException.FromKnownException(knownException);
-                context.HttpContext.Response.StatusCode = StatusCodes.Status200OK;
+                context.HttpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
             }
             context.Result = new JsonResult(knownException)
             {

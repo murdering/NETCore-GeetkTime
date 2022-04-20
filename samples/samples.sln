@@ -35,13 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_LoggingSimpleDemo", "Log
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_LoggingScopeDemo", "LoggingScopeDemo\12_LoggingScopeDemo.csproj", "{736A4AED-658D-48D9-89C4-D53C3D7A1C02}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddlewareDemo", "MiddlewareDemo\MiddlewareDemo.csproj", "{BEB54497-A95C-4DED-8BA5-18767558D8DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_MiddlewareDemo", "MiddlewareDemo\15_MiddlewareDemo.csproj", "{BEB54497-A95C-4DED-8BA5-18767558D8DF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionDemo", "ExceptionDemo\ExceptionDemo.csproj", "{E1681FEA-6B2D-4C55-8CC5-CD46A6268209}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_ExceptionDemo", "ExceptionDemo\16_ExceptionDemo.csproj", "{E1681FEA-6B2D-4C55-8CC5-CD46A6268209}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticFilesDemo", "StaticFilesDemo\StaticFilesDemo.csproj", "{BC4614D5-9270-44F3-9911-DDE9E2465739}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_StaticFilesDemo", "StaticFilesDemo\17_StaticFilesDemo.csproj", "{BC4614D5-9270-44F3-9911-DDE9E2465739}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileProviderDemo", "FileProviderDemo\FileProviderDemo.csproj", "{821F6703-0FF2-4ED5-93E7-235323001A58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_FileProviderDemo", "FileProviderDemo\18_FileProviderDemo.csproj", "{821F6703-0FF2-4ED5-93E7-235323001A58}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoutingDemo", "RoutingDemo\RoutingDemo.csproj", "{08FD01C9-E3F4-4A78-B8F5-810C1F48634D}"
 EndProject

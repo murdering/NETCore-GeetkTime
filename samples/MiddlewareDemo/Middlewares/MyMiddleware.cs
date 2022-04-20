@@ -22,7 +22,7 @@ namespace MiddlewareDemo.Middlewares
             using (_logger.BeginScope("TraceIdentifier:{TraceIdentifier}", context.TraceIdentifier))
             {
                 _logger.LogDebug("开始执行");
-                
+
                 await _next(context);
 
                 _logger.LogDebug("执行结束");

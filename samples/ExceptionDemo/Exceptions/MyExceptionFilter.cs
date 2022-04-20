@@ -20,7 +20,7 @@ namespace ExceptionDemo.Exceptions
                 var logger = context.HttpContext.RequestServices.GetService<ILogger<MyExceptionFilterAttribute>>();
                 logger.LogError(context.Exception, context.Exception.Message);
                 knownException = KnownException.Unknown;
-                context.HttpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
+                context.HttpContext.Response.StatusCode = StatusCodes.Status200OK;
             }
             else
             {
