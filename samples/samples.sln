@@ -43,7 +43,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_StaticFilesDemo", "Stati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_FileProviderDemo", "FileProviderDemo\18_FileProviderDemo.csproj", "{821F6703-0FF2-4ED5-93E7-235323001A58}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoutingDemo", "RoutingDemo\RoutingDemo.csproj", "{08FD01C9-E3F4-4A78-B8F5-810C1F48634D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_RoutingDemo", "RoutingDemo\19_RoutingDemo.csproj", "{08FD01C9-E3F4-4A78-B8F5-810C1F48634D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorDemo", "MediatorDemo\MediatorDemo.csproj", "{F757EFF3-0954-4DDA-A5B7-C57E89FC9FC3}"
 EndProject
