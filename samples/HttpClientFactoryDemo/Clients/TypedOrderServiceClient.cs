@@ -16,7 +16,7 @@ namespace HttpClientFactoryDemo.Clients
 
         public async Task<string> Get()
         {
-           return  await _client.GetStringAsync("/OrderService"); //这里使用相对路径来访问
+            return  await _client.GetStringAsync("/OrderService"); //这里使用相对路径来访问
         }
     }
 }

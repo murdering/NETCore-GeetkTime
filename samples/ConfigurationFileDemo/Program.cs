@@ -8,7 +8,8 @@ namespace ConfigurationFileDemo
         static void Main(string[] args)
         {
             var builder = new ConfigurationBuilder();
-            builder.AddJsonFile("appsettings.json");
+            builder.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+            builder.AddIniFile("appsettings.ini");
 
             var configurationRoot = builder.Build();
 
@@ -24,6 +25,7 @@ namespace ConfigurationFileDemo
                 binderOptions => { binderOptions.BindNonPublicProperties = true; });
 
             Console.WriteLine($"Key1:{config.Key1}");
+            Console.WriteLine($"Key3:{configurationRoot["Key3"]}");
             Console.WriteLine($"Key5:{config.Key5}");
             Console.WriteLine($"Key6:{config.Key6}");
 

@@ -24,7 +24,7 @@ namespace ConfigurationDemo
             IConfigurationRoot configurationRoot = builder.Build();
 
 
-            ///IConfiguration config = configurationRoot;
+            //IConfiguration config = configurationRoot;
 
             Console.WriteLine(configurationRoot["key1"]);
             Console.WriteLine(configurationRoot["key2"]);

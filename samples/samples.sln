@@ -45,15 +45,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_FileProviderDemo", "File
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_RoutingDemo", "RoutingDemo\19_RoutingDemo.csproj", "{08FD01C9-E3F4-4A78-B8F5-810C1F48634D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorDemo", "MediatorDemo\MediatorDemo.csproj", "{F757EFF3-0954-4DDA-A5B7-C57E89FC9FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_MediatorDemo", "MediatorDemo\20_MediatorDemo.csproj", "{F757EFF3-0954-4DDA-A5B7-C57E89FC9FC3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClientFactoryDemo", "HttpClientFactoryDemo\HttpClientFactoryDemo.csproj", "{C3889340-50F4-4201-BAF8-96CB2B82CAA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21_A_Client_HttpClientFactoryDemo", "HttpClientFactoryDemo\21_A_Client_HttpClientFactoryDemo.csproj", "{C3889340-50F4-4201-BAF8-96CB2B82CAA6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcClientDemo", "GrpcClientDemo\GrpcClientDemo.csproj", "{961FA58E-BD67-40CB-AD6C-8212A1380D8C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcServerDemo", "GrpcServerDemo\GrpcServerDemo.csproj", "{ED431744-15B8-4312-A4A7-9E0F56DBCE16}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteSite", "RemoteSite\RemoteSite.csproj", "{FF1D46A6-E898-432C-A82A-AC57F086E348}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22_B_Remote_RemoteSite", "RemoteSite\22_B_Remote_RemoteSite.csproj", "{FF1D46A6-E898-432C-A82A-AC57F086E348}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

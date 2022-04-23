@@ -42,7 +42,6 @@ namespace DependencyInjectionScopeAndDisposableDemo
             var s = app.ApplicationServices.GetService<IOrderService>();
             var s2 = app.ApplicationServices.GetService<IOrderService>();
 
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
