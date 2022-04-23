@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Routing;
 
 namespace RoutingDemo.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("bpi/[controller]/[action]")]
     [ApiController]
     public class OrderController : ControllerBase
     {

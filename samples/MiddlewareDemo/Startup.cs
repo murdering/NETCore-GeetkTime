@@ -48,6 +48,11 @@ namespace MiddlewareDemo
                 }
                 await context.Response.WriteAsync("Hello2");
             });
+            
+            app.Run(async context => {
+                await context.Response.WriteAsync("It will break");
+                //return Task.CompletedTask;
+            });
 
 
             app.Map("/abc", abcBuilder =>

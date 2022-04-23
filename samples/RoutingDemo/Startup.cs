@@ -73,7 +73,7 @@ namespace RoutingDemo
                 //映射默认路由   {controller=Home}/{action=Index}/{id?}
                 //endpoints.MapDefaultControllerRoute();
 
-                //endpoints.MapControllerRoute("api", "api/{controller}/{action}");
+                endpoints.MapControllerRoute("api", "api/{controller}/{action}");
 
                 //使用RouteAttribute
                 endpoints.MapControllers();
